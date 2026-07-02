@@ -7,6 +7,7 @@ import Process from "./sections/Process";
 import Portfolio from "./sections/Portfolio";
 import Testimonials from "./sections/Testimonials";
 import CTA from "./sections/CTA";
+import FaqSection from "@/components/sections/FaqSection";
 import Footer from "./sections/Footer";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
         <Testimonials />
         <CTA />
       </main>
+      <FaqSection />
       <Footer />
     </>
   );
